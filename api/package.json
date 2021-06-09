@@ -1,0 +1,24 @@
+{
+  "name": "delcat-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon rest.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "node_modules/.bin/prettier --write \"src/**/*.{js,jsx,json,css,scss,md}\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fastify": "^3.17.0",
+    "fastify-cors": "^6.0.1",
+    "fastify-mongodb": "^2.0.1",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.13",
+    "nodemon": "^2.0.7"
+  }
+}
