@@ -1,0 +1,215 @@
+
+
+.backToMenu {
+  position: fixed;
+  width: 40px;
+  top: 80px;
+  left: 30px;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+  color: #212529;
+}
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+
+.arrow {
+  position: relative;
+  background: #ccc;
+  height: 1px;
+  top: 15px;
+}
+
+.arrow:after,
+.arrow:before {
+  right: 100%;
+  border: solid transparent;
+  content: '';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arrow.right:after,
+.arrow.right:before {
+  left: 100%;
+}
+.arrow.right:before {
+  border-color: transparent;
+  border-width: 5px;
+  margin-top: -5px;
+}
+
+.arrow.right:after,
+.arrow.right:before {
+  border-left-color: #ccc;
+}
+
+@media screen and (max-width: 640px) {
+  .arrow {
+    display: none;
+  }
+
+  .form-row-flex {
+    flex-direction: column;
+    width: 190px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+.site-layout-content-form {
+  min-height: 280px;
+  margin: auto;
+  max-width: 700px;
+}
+
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.company-card {
+  transition: all 0.1s ease-in;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.company-card li {
+  margin: 0;
+}
+
+.company-card:hover {
+  transform: scale(1.02);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-header {
+  color: #f5222d;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.header {
+  background-color: white;
+}
+
+.logo-subtitle-header {
+  color: black;
+  font-size: 13px;
+}
+
+.logo-image-header {
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+.logo-title-header {
+  cursor: pointer;
+}
+
+.ant-input-number-input {
+  text-align: center;
+}
+
+.scrollTop {
+  position: fixed;
+  width: 100%;
+  bottom: 40px;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+}
+
+.scrollTop:hover{
+  opacity: 1;
+}
+
+.editable-row .ant-form-item-explain {
+  position: absolute;
+  top: 100%;
+  font-size: 12px;
+  max-width: 100%;
+}
+
+.ant-table-cell{
+  max-width: 100px;
+  min-width: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.site-layout-content-admin{
+ display: inline-block;
+}
+
+.ant-layout-sider-zero-width-trigger{
+  background: #cccccc;
+}
+
+
+.column-image{
+  max-width: 100px;
+  min-width: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.column-services{
+  max-width: 180px;
+  min-width: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.column-cities{
+  max-width: 180px;
+  min-width: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.column-description{
+  max-width: 180px;
+  min-width: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
