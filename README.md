@@ -1,4 +1,5 @@
 # delcat-dev
+практика на фитуле  
 
 ## main
 ![main](https://i.ibb.co/vPJmYPT/localhost-3000-main.png)
