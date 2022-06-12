@@ -2,11 +2,13 @@
 практика на фитуле  
 
 ## main
-![main](https://i.ibb.co/vPJmYPT/localhost-3000-main.png)
+![68747470733a2f2f692e6962622e636f2f76504a6d5950542f6c6f63616c686f73742d333030302d6d61696e2e706e67](https://user-images.githubusercontent.com/26699314/173250572-b2336147-7225-4e49-a78e-56323196ce30.png)
 
 ## order
-![order](https://i.ibb.co/5rsRqxG/localhost-3000-order.png)
+![68747470733a2f2f692e6962622e636f2f357273527178472f6c6f63616c686f73742d333030302d6f726465722e706e67](https://user-images.githubusercontent.com/26699314/173250582-1e99c0e0-95ab-4b80-8449-05e88f25d279.png)
 
-## admin
-![admin](https://i.ibb.co/HpPdd1C/localhost-3000-admin.png)
+
+## admin panel
+![68747470733a2f2f692e6962622e636f2f487050646431432f6c6f63616c686f73742d333030302d61646d696e2e706e67](https://user-images.githubusercontent.com/26699314/173250579-866a44e2-17f9-41c5-b399-85c5908ca345.png)
+
 
